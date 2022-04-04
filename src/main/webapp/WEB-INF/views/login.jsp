@@ -12,7 +12,7 @@
     <div class="form">
         <h4 style="color: coral">${errorMsg}</h4>
         <form class="login-form" method="post" action="${pageContext.request.contextPath}/login">
-            <input type="text" name="login" placeholder="username"/>
+            <input type="text" name="login" placeholder="login"/>
             <input type="password" name="password" placeholder="password"/>
             <button type="submit">login</button>
             <p class="message">New user? <a href="${pageContext.request.contextPath}/drivers/add">Create a driver account</a></p>
