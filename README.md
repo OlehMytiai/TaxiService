@@ -21,12 +21,12 @@ In this application we use 3-tier Architecture:
 * Apache Maven
 * Apache Log4j2
 * Apache Tomcat 9
+* Custom Injector
 * JDBC
 * MySQL
 * HTTP Servlet
 * JSP, JSTL
 * HTML, CSS, XML
-
 
 ## ⚡️ Installation
 *IMPORTANT!!!* You need to install Tomcat 9 and MySQL
@@ -56,6 +56,13 @@ public class ConnectionUtil {
 * In the tab Deployment -> Add -> Choose `taxi-service: war exploded`
 * Set Application context: / (empty path)
 
+5. Open `log4j2.xml` and add absolute path to your `.log` file.
+```xml
+<File name="LogToFile" filename="ABSOLUTE PATH">
+```
+**WARNING!!!** Path to your project must contain only english letters. 
+Also, it mustn't contain spaces. In other case `Injector` won't work correctly.
+
 ## 👨‍💻 Author
 ### Oleh Mytiai
-[LinkedIn](https://choosealicense.com/licenses/mit/)
+[LinkedIn](https://www.linkedin.com/in/mytiaiov)
