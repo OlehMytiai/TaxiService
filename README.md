@@ -29,7 +29,7 @@ In this application we use 3-tier Architecture:
 * HTML, CSS, XML
 
 ## Usage
-If you want to test the application, you can [clone repo and configure](https://github.com/OlehMytiai/TaxiService/edit/main/README.md#%EF%B8%8F-installation) it,
+If you want to test the application, you can [clone repo and configure](https://github.com/OlehMytiai/TaxiService#%EF%B8%8F-installation) it,
 or use [this](https://protected-springs-81009.herokuapp.com/login) link
 to see how the application works (a link to an application that is deployed on the Heroku server).
 
