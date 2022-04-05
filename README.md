@@ -63,6 +63,11 @@ public class ConnectionUtil {
 **WARNING!!!** Path to your project must contain only english letters. 
 Also, it mustn't contain spaces. In other case `Injector` won't work correctly.
 
+## Usage
+If you want to test the application, you can *clone repo*, 
+or use [this](https://protected-springs-81009.herokuapp.com/login) link
+to see how the application works.
+
 ## 👨‍💻 Author
 ### Oleh Mytiai
 [LinkedIn](https://www.linkedin.com/in/mytiaiov)

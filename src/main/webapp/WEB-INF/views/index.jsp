@@ -4,7 +4,7 @@
 </style>
 <html>
 <head>
-    <title>My team</title>
+    <title>Taxi Service</title>
 </head>
 <body>
 <%@include file="header.jsp" %>
