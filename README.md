@@ -34,7 +34,7 @@ In this application we use 3-tier Architecture:
 1. Clone repository to your local machine
 
 ```bash
-git clone https://github.com/OlehMytiai/taxi-service.git
+git clone https://github.com/OlehMytiai/TaxiService.git
 ```
 
 2. Configurate `ConnectionUtil` class to create connection to your db:
