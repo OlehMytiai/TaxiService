@@ -28,6 +28,11 @@ In this application we use 3-tier Architecture:
 * JSP, JSTL
 * HTML, CSS, XML
 
+## Usage
+If you want to test the application, you can *clone repo* and [configure](#️installation) it,
+or use [this](https://protected-springs-81009.herokuapp.com/login) link
+to see how the application works.
+
 ## ⚡️ Installation
 *IMPORTANT!!!* You need to install Tomcat 9 and MySQL
 
@@ -37,7 +42,7 @@ In this application we use 3-tier Architecture:
 git clone https://github.com/OlehMytiai/TaxiService.git
 ```
 
-2. Configurate `ConnectionUtil` class to create connection to your db:
+2. Configure `ConnectionUtil` class to create connection to your db:
 ```java
 public class ConnectionUtil {
     private static final String URL = "YOUR DATABASE URL";
@@ -49,9 +54,9 @@ public class ConnectionUtil {
 }
 ```
 
-3. Use script in `init_db.sql` to configurate `taxi` schema.
+3. Use script in `init_db.sql` to configure `taxi` schema.
 
-4. Configurate Tomcat:
+4. Configure Tomcat:
 * Edit Configurations -> Add new Configuration -> Choose Tomcat Local
 * In the tab Deployment -> Add -> Choose `taxi-service: war exploded`
 * Set Application context: / (empty path)
@@ -62,11 +67,6 @@ public class ConnectionUtil {
 ```
 **WARNING!!!** Path to your project must contain only english letters. 
 Also, it mustn't contain spaces. In other case `Injector` won't work correctly.
-
-## Usage
-If you want to test the application, you can *clone repo*, 
-or use [this](https://protected-springs-81009.herokuapp.com/login) link
-to see how the application works.
 
 ## 👨‍💻 Author
 ### Oleh Mytiai
