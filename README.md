@@ -34,7 +34,7 @@ or use [this](https://protected-springs-81009.herokuapp.com/login) link
 to see how the application works (a link to an application that is deployed on the Heroku server).
 
 ## ⚡️ Installation
-*IMPORTANT!!!* You need to install Tomcat 9 and MySQL
+> **Note:** You need to install Tomcat 9 and MySQL
 
 1. Clone repository to your local machine
 
@@ -65,7 +65,7 @@ public class ConnectionUtil {
 ```xml
 <File name="LogToFile" filename="ABSOLUTE PATH">
 ```
-**WARNING!!!** Path to your project must contain only english letters. 
+> **Note:** Path to your project must contain only english letters. 
 Also, it mustn't contain spaces. In other case `Injector` won't work correctly.
 
 ## 👨‍💻 Author
